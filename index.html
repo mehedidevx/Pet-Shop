@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap"
       rel="stylesheet"
     />
     <!-- FontAwesome Cdn -->
@@ -48,27 +48,29 @@
     </script>
     <style>
       body {
-        font-family: "Sora", serif;
+        font-family: "ADLaM Display", serif;
       }
-      
     </style>
   </head>
   <body>
     <!-- Header section -->
-    <header class="bg-gradient-to-b from-skyGradientStart to-skyGradientEnd">
+    <header class="">
       <!-- Navbar Section -->
-      <nav
-        class="md:container mx-auto border-b-primary-color border md:border-none mb-20 md:mb-0"
+      <div class="bg-[#FFF9F4] z-10">
+        <nav
+        class="md:container mx-auto border-b-primary-color border md:border-none mb-20 md:mb-0 "
       >
         <div
           class="flex justify-between items-center mx-auto py-6 px-5 md:px-0"
         >
           <div class="md:hidden">
-            <img src="./images/Group.png" alt="" />
+            <img src="./c1-assets/logo-header.png" alt="" />
           </div>
           <div class="hidden md:flex gap-2 items-center">
             <img src="./c1-assets/logo-header.png" alt="" />
-            <h3 class="text-2xl">Browse<span class="text-primary-btn">4</span>Pets</h3>
+            <h3 class="text-2xl">
+              Browse<span class="text-primary-btn">4</span>Pets
+            </h3>
           </div>
           <div class="hidden md:flex justify-center gap-6 text-xl">
             <p>Find a pet</p>
@@ -83,38 +85,31 @@
             >
               Login
             </button>
-            <button class="btn bg-primary-btn  text-xl">
-              Register
-            </button>
+            <button class="btn bg-primary-btn text-xl">Register</button>
           </div>
           <div class="md:hidden">
             <i class="fa-solid fa-bars text-3xl text-primary-color"></i>
           </div>
         </div>
       </nav>
+      </div>
       <!-- Banner Section -->
-      <section class="md:container mx-auto my-10 md:mt-24 px-4 md:px-0">
-        <div class="md:flex justify-center items-center flex-col gap-5">
-          <div class="md:w-1/2 text-center animate-bounce">
+      <section class=" md:container mx-auto my-10 md:mt-24 px-4 md:px-0">
+        <div class="md:flex flex-col gap-5 ">
+          <div class="md:w-1/2 z-10  animate-bounce">
             <h1 class="text-3xl md:text-5xl font-medium md:leading-[71px]">
-              Freshness
-              <span class="text-primary-color">
-                You Can <br />
-                Count</span
-              >
-              On, Prices You’ll Love!
+              Pamper Your Pet, <br> Because They Deserve <br> the Bes
             </h1>
-            <p class="font-normal mt-2 p-5">
+            <p class="font-normal mt-2">
               Shop your daily essentials at unbeatable prices. From fresh
               produce to pantry <br />
               staples, we’ve got you covered every day!
             </p>
           </div>
-          <div class="md:w-1/2">
-            <img src="./images/hero-vegetables.png" alt="" />
+          <div class="md:w-full z-0 relative md:bottom-96">
+            <img class="w-full" src="./c1-assets/cat-big.png" alt="" />
           </div>
         </div>
-        
       </section>
     </header>
     <!-- Main Section -->
